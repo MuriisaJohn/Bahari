@@ -4,6 +4,7 @@
 
 
 <head>
+	<!-- Basic Page Needs -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,6 +12,7 @@
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700' rel='stylesheet'
 		type='text/css'>
+	<!-- CSS Files -->
 	<link href="css/font-awesome.min.css" rel="stylesheet">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
 	<link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
@@ -23,6 +25,7 @@
 
 
 	<link href="css/parallax-only.css" rel="stylesheet">
+	<!-- Favicons for different devices -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -42,7 +45,7 @@
     />
     <link rel="manifest" href="./favicon/site.webmanifest" />
 	 <link href="css/Homenavbar.css" rel="stylesheet">
-
+	
 	<!--  Fontawesome icons -->
 	<script src="https://kit.fontawesome.com/e9cf5a296c.js" crossorigin="anonymous"></script>
 
@@ -81,12 +84,14 @@
 				crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
+<!-- Body of the page -->
 <body class="tm-gray-bg">
+	<!-- Preloader -->
 	<div id="preloader"></div>
 	<!-- Scroll to Top Button -->
 	<div class="scroll-up-btn">
 		<i class="fa fa-angle-up"></i>
-	</div>
+	</div>	
 
 	<!-- Header -->
 	<div class="tm-header">
@@ -120,7 +125,7 @@
 			</div>
 		</div>
 	</div>
-	<!-- landing page -->
+	<!-- Landing Page Section -->
 	<section class="landing-page">
 		<div class="container">
 		  <div class="content">
@@ -142,7 +147,7 @@
 
 	
 
-	<!-- gray bg -->
+	<!-- Gray Background Section - Destination and Booking Form -->
 	<section class="container tm-home-section-1" id="more">
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-6">
@@ -271,10 +276,10 @@ $conn->close();
 							            </div>
 							          
 										<div class="form-group margin-bottom-0">
-											<input type='email' class="form-control" placeholder="email" name="email"required />
+											<input type='email' class="form-control" placeholder="Enter your email address" name="email" required />
 							            </div>
 							            <div class="form-group margin-bottom-0">
-											<input type='text' class="form-control" placeholder="name" name="name"required />
+											<input type='text' class="form-control" placeholder="Enter your name" name="name" required />
 							            </div>
 										
 									</div>
@@ -338,7 +343,7 @@ $conn->close();
 				</div>
 				<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-center effect2">
-					<img src="img/index-01.jpg" alt="image" class="arz-img-responsive">
+					<img src="img/index-01.jpg" alt="Explore the beauty of Canada" class="arz-img-responsive">
 					<div class="arz-overlay">
 						<div class="arz-title">Explore</div>
 						<p class="arz-titleAdd">The beauty of Canada</p>
@@ -353,7 +358,7 @@ $conn->close();
 			</div>
 			<div class="col-lg-4 col-md-4 col-sm-6">
 				<div class="tm-home-box-1 tm-home-box-1-2 tm-home-box-1-right effect2">
-					<img src="img/index-02.jpg" alt="image" class="arz-img-responsive">
+					<img src="img/index-02.jpg" alt="Explore the beauty of Brazil" class="arz-img-responsive">
 					<div class="arz-overlay">
 						<div class="arz-title">Explore</div>
 						<p class="arz-titleAdd">The beauty of Brazil</p>
@@ -368,6 +373,7 @@ $conn->close();
 			</div>
 		</div>
 
+		<!-- Places to Visit Section -->
 		<div class="section-margin-top" id="visit">
 			<div class="row">
 				<div class="tm-section-header">
@@ -385,7 +391,7 @@ $conn->close();
 			<div class="row reveal">
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">
-						<img src="img/index-03.jpg" alt="image" class="img-responsive">
+						<img src="img/index-03.jpg" alt="Spanish beach" class="img-responsive">
 						
 						<h3>Spainish beach</h3>
 						<p class="tm-date">28 March 2022</p>
@@ -401,7 +407,7 @@ $conn->close();
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">
-						<img src="img/index-04.jpg" alt="image" class="img-responsive">
+						<img src="img/index-04.jpg" alt="Namibia desert" class="img-responsive">
 						<h3>Namibia desert</h3>
 						<p class="tm-date">26 Nov 2023</p>
 						<div class="tm-home-box-2-container">
@@ -416,7 +422,7 @@ $conn->close();
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2">
-						<img src="img/index-05.jpg" alt="image" class="img-responsive">
+						<img src="img/index-05.jpg" alt="Canada railway journey" class="img-responsive">
 						<h3>Canaba railway journey</h3>
 						<p class="tm-date">24 March 2023</p>
 						<div class="tm-home-box-2-container">
@@ -431,7 +437,7 @@ $conn->close();
 				</div>
 				<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 col-xxs-12">
 					<div class="tm-home-box-2 tm-home-box-2-right">
-						<img src="img/index-06.jpg" alt="image" class="img-responsive">
+						<img src="img/index-06.jpg" alt="Amazon jungle" class="img-responsive">
 						<h3>Amazon jungle</h3>
 						<p class="tm-date">2 January 2024</p>
 						<div class="tm-home-box-2-container">
@@ -453,7 +459,7 @@ $conn->close();
 			</div>
 		</div>
 	</section>
-	<!-- Banner -->
+	<!-- Banner Section -->
 	<section class="tm-banner">
 		<!-- Flexslider -->
 		<div class="flexslider flexslider-banner">
@@ -465,7 +471,7 @@ $conn->close();
 						<a href="#visit" class="tm-banner-link">Learn More</a>
 
 					</div>
-					<img src="img/banner-1.jpg" alt="Image" />
+					<img src="img/banner-1.jpg" alt="Find the best place for your holidays" />
 				</li>
 				<li>
 					<div class="tm-banner-inner">
@@ -475,7 +481,7 @@ $conn->close();
 						<a href="#popular" class="tm-banner-link">Learn More</a>
 
 					</div>
-					<img src="img/banner-2.jpg" alt="Image" />
+					<img src="img/banner-2.jpg" alt="Walk through your dream wonderful destinations" />
 				</li>
 				<li>
 					<div class="tm-banner-inner">
@@ -484,12 +490,12 @@ $conn->close();
 
 						<a href="#visit" class="tm-banner-link">Learn More</a>
 					</div>
-					<img src="img/banner-3.jpg" alt="Image" />
+					<img src="img/banner-3.jpg" alt="Ride your journey and enjoy nature" />
 				</li>
 			</ul>
 		</div>
 	</section>
-
+	
 	<!-- white bg -->
 	<section class="tm-white-bg section-padding-bottom">
 		<div class="container reveal">
@@ -508,7 +514,7 @@ $conn->close();
 				<div class="col-lg-6">
 					<div class="tm-home-box-3">
 						<div class="tm-home-box-3-img-container">
-							<img src="img/index-07.jpg" alt="image" class="img-responsive">
+							<img src="img/index-07.jpg" alt="Kanyakumari, India" class="img-responsive">
 						</div>
 						<div class="tm-home-box-3-info">
 							<p class="tm-home-box-3-description"><b>Kanyakumari :</b> From scenic beaches
@@ -528,7 +534,7 @@ $conn->close();
 				<div class="col-lg-6">
 					<div class="tm-home-box-3 reveal">
 						<div class="tm-home-box-3-img-container">
-							<img src="img/index-08.jpg" alt="image" class="img-responsive">
+							<img src="img/index-08.jpg" alt="Isreal, the spiritual land" class="img-responsive">
 						</div>
 						<div class="tm-home-box-3-info">
 							<p class="tm-home-box-3-description"><b>Isreal : </b> A vacation to this spiritual land is
@@ -548,7 +554,7 @@ $conn->close();
 				<div class="col-lg-6">
 					<div class="tm-home-box-3 reveal">
 						<div class="tm-home-box-3-img-container">
-							<img src="img/index-09.jpg" alt="image" class="img-responsive">
+							<img src="img/index-09.jpg" alt="Swertizland, enclosed by the Alpas" class="img-responsive">
 						</div>
 						<div class="tm-home-box-3-info">
 							<p class="tm-home-box-3-description"><b>Swertizland :</b> Enclosed by the Alpas,surrounded
@@ -567,7 +573,7 @@ $conn->close();
 				<div class="col-lg-6">
 					<div class="tm-home-box-3 reveal">
 						<div class="tm-home-box-3-img-container">
-							<img src="img/index-10.jpg" alt="image" class="img-responsive">
+							<img src="img/index-10.jpg" alt="Kedarnath, India" class="img-responsive">
 						</div>
 						<div class="tm-home-box-3-info">
 							<p class="tm-home-box-3-description"><b>Kedarnath :</b> This place is a lush
@@ -586,7 +592,7 @@ $conn->close();
 				<div class="col-lg-6">
 					<div class="tm-home-box-3 reveal">
 						<div class="tm-home-box-3-img-container">
-							<img src="img/index-12.jpg" alt="image" class="img-responsive">
+							<img src="img/index-12.jpg" alt="Triupathi Balaji, India" class="img-responsive">
 						</div>
 						<div class="tm-home-box-3-info">
 							<p class="tm-home-box-3-description"><b>Triupathi Balaji :</b> Sri Venkateswara Swami Vaari Temple is a Hindu temple situated in the hill town of Tirumala at Tirupati,India.</p>
@@ -604,7 +610,7 @@ $conn->close();
 				<div class="col-lg-6">
 					<div class="tm-home-box-3 reveal">
 						<div class="tm-home-box-3-img-container">
-							<img src="img/index-13.jpg" alt="image" class="img-responsive">
+							<img src="img/index-13.jpg" alt="Imagicaa Theme Park, India" class="img-responsive">
 						</div>
 						<div class="tm-home-box-3-info">
 							<p class="tm-home-box-3-description"><b>Imagicaa :</b> Imagicaa is a  theme park in Khopoli India. <br>
@@ -625,7 +631,7 @@ $conn->close();
 	</section>
 
 
-	<!-- footer -->
+	<!-- Footer Section -->
 	<footer>        
         <div class = "pages">
             <div class="menu-items">
@@ -645,7 +651,7 @@ $conn->close();
 
 			<form action="" method="post">
 			<div class="newsletter">
-				<input type="text" name="email" value="" placeholder="Enter your email">
+				<input type="text" name="email" value="" placeholder="Enter your email address">
 				<button type="submit" name="submit">Submit</button>
 			</div>
 		</form>
@@ -671,7 +677,7 @@ $conn->close();
     </footer>
 
 	
-	  <!-- footer -->
+	  <!-- End Footer Section -->
 
 	<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      		<!-- jQuery -->
 	<script type="text/javascript" src="js/scrollToTop.js"></script>					<!-- Scroll To Top -->
